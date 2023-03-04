@@ -12,4 +12,4 @@ Using the 2021.3.17f1 version of Unity.
 
 * Look for assets of different scales like the Earth, a city, a cell. 
 
-* Create controller for moving around in space. 
+* (@HussainAther) - Look into this script and convert it to C sharp: https://github.com/diarmidmackenzie/scale-of-the-universe-vr/blob/main/scale.js
