@@ -9,10 +9,17 @@ public class MoveCamera : MonoBehaviour
     void Update()
     {
         if (Input.GetKey(KeyCode.UpArrow)) {
-            transform.Translate(Vector3.forward * Time.deltaTime*50);
+            transform.Translate(Vector3.forward * Time.deltaTime*10);
         }
         if (Input.GetKey(KeyCode.DownArrow)) {
-            transform.Translate(Vector3.back * Time.deltaTime*50);
+            transform.Translate(Vector3.back * Time.deltaTime*10);
+        }
+
+        if (Input.GetKey(KeyCode.Z)) {
+            transform.Translate(Vector3.forward * Time.deltaTime*100);
+        }
+        if (Input.GetKey(KeyCode.X)) {
+            transform.Translate(Vector3.back * Time.deltaTime*100);
         }
         // float verticalMovement = Input.GetAxis("Vertical") * movementSpeed * Time.deltaTime;
         // transform.Translate(0, 0, verticalMovement);
