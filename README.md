@@ -7,9 +7,4 @@ Make a VR app that we can use to visualize the differences in scale and size bet
 Using the 2021.3.17f1 version of Unity.
 
 ## Assignments / What to do:
-* Start by being able to visualize this: https://sketchfab.com/3d-models/need-some-space-d6521362b37b48e3a82bce4911409303 
-* * Import it to Unity (for loading the file: https://github.com/keijiro/Pcx) 
-
-* Look for assets of different scales like the Earth, a city, a cell. 
-
-* (@HussainAther) - Look into this script and convert it to C sharp: https://github.com/diarmidmackenzie/scale-of-the-universe-vr/blob/main/scale.js
+* Solar system has been visualized in scale and distance with a camera that moves forward and backward trough the solar system. 
