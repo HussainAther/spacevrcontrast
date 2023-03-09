@@ -647,18 +647,24 @@ PrefabInstance:
     - target: {fileID: 4064380107206226059, guid: 41261283bc4b74308b744038ad072b12,
         type: 3}
       propertyPath: m_text
-      value: We've come out of the Milky Way. You are now seing the large-scale structure
-        of the universe. Each point represents some amounts of mass in the universe
+      value: We've come out of the Milky Way. You are now seing a computer simulation
+        of the large-scale structure of the universe. Each point represents some
+        amounts of mass in the universe
       objectReference: {fileID: 0}
     - target: {fileID: 4064380107206226059, guid: 41261283bc4b74308b744038ad072b12,
         type: 3}
       propertyPath: m_margin.x
-      value: -216.28795
+      value: -262.1302
       objectReference: {fileID: 0}
     - target: {fileID: 4064380107206226059, guid: 41261283bc4b74308b744038ad072b12,
         type: 3}
       propertyPath: m_margin.y
       value: -145.61406
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064380107206226059, guid: 41261283bc4b74308b744038ad072b12,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -66.06135
       objectReference: {fileID: 0}
     - target: {fileID: 4064380107206226060, guid: 41261283bc4b74308b744038ad072b12,
         type: 3}
@@ -673,8 +679,9 @@ PrefabInstance:
     - target: {fileID: 4064380107206226060, guid: 41261283bc4b74308b744038ad072b12,
         type: 3}
       propertyPath: startText
-      value: We've come out of the Milky Way. You are now seing the large-scale structure
-        of the universe. Each point represents some amounts of mass in the universe
+      value: We've come out of the Milky Way. You are now seing a computer simulation
+        of the large-scale structure of the universe. Each point represents some
+        amounts of mass in the universe
       objectReference: {fileID: 0}
     - target: {fileID: 4064380107206226060, guid: 41261283bc4b74308b744038ad072b12,
         type: 3}

@@ -27,8 +27,8 @@ public class WriteScaleText : MonoBehaviour
 
         float distance = scaleFactor * (this.gameObject.transform.position - referenceObject.position).magnitude;
         this.gameObject.GetComponent<TextMeshProUGUI>().text =
-            "distance to " + referenceObjectName + " is " +
-            distance.ToString("f2") + " " + unit;
+            "Distance to " + referenceObjectName + " (" + unit + "): " +
+            distance.ToString("f2");
         ;
     }
 }
