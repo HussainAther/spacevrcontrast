@@ -2008,4 +2008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   referenceObject: {fileID: 0}
-  startScale: 1
+  referenceObjectName: 
+  unit: 
+  scaleFactor: 0
+  startText: 
