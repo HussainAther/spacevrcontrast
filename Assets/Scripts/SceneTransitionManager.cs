@@ -5,37 +5,40 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransitionManager : MonoBehaviour
 {
-    // trigger scene transition when scale of object falls below some threshold
-    public float scaleThreshold = 1e-4f;
+    // trigger scene transition when distance to earth goes above some threshold
+    public float distanceThreshold = 4000;
+    // position of earth
+    public Transform earthTransform;
     // the id of the scene to transition to
-    public int sceneIndex;
+    public string sceneName;
 
     // fade screen upon scene transition
     public FadeScreen fadeScreen;
 
-    public void GoToScene(int sceneIndex)
+    public void GoToScene(string sceneName)
     {
-        if (this.gameObject.transform.localScale.x < scaleThreshold)
-        {
-            StartCoroutine(GoToSceneRoutine(sceneIndex)); ;
-        }
+        StartCoroutine(GoToSceneRoutine(sceneName)); ;
     }
 
-    private IEnumerator GoToSceneRoutine(int sceneIndex)
+    private IEnumerator GoToSceneRoutine(string sceneName)
     {
         fadeScreen.FadeIn();
         yield return new WaitForSeconds(fadeScreen.fadeDuration);
 
-        SceneManager.LoadScene(sceneIndex);
+        SceneManager.LoadScene(sceneName);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (distanceThreshold < 0)
+            return;
+
+        float distance = (earthTransform.position - this.gameObject.transform.position).magnitude;
         // scene transition
-        if (this.gameObject.transform.localScale.x < scaleThreshold)
+        if (distance > distanceThreshold)
         {
-            GoToScene(sceneIndex);
+            GoToScene(sceneName);
         }
     }
 }

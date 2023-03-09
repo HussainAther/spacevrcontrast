@@ -123,6 +123,43 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &57814976 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -364223573239433514, guid: 31420b90c28934387a4ef53b073fdba1,
+    type: 3}
+  m_PrefabInstance: {fileID: 2100271219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &141468917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 141468918}
+  m_Layer: 0
+  m_Name: EarthPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &141468918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141468917}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -64.12875, z: -62.92833}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &791681722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -143,17 +180,17 @@ PrefabInstance:
     - target: {fileID: 4064380105933498671, guid: 41261283bc4b74308b744038ad072b12,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 120
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4064380105933498671, guid: 41261283bc4b74308b744038ad072b12,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -46
+      value: -60.05
       objectReference: {fileID: 0}
     - target: {fileID: 4064380105933498671, guid: 41261283bc4b74308b744038ad072b12,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -98
+      value: -62
       objectReference: {fileID: 0}
     - target: {fileID: 4064380105933498671, guid: 41261283bc4b74308b744038ad072b12,
         type: 3}
@@ -190,6 +227,58 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4064380105970284505, guid: 41261283bc4b74308b744038ad072b12,
+        type: 3}
+      propertyPath: far clip plane
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064380107206226059, guid: 41261283bc4b74308b744038ad072b12,
+        type: 3}
+      propertyPath: m_text
+      value: Welcome to the Milky Way Galaxy! Try moving away from the Milky Way
+        disk.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064380107206226059, guid: 41261283bc4b74308b744038ad072b12,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -214.81073
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064380107206226059, guid: 41261283bc4b74308b744038ad072b12,
+        type: 3}
+      propertyPath: m_margin.y
+      value: -23.651136
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064380107206226059, guid: 41261283bc4b74308b744038ad072b12,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -17.117493
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064380107206226060, guid: 41261283bc4b74308b744038ad072b12,
+        type: 3}
+      propertyPath: unit
+      value: kilo light years
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064380107206226060, guid: 41261283bc4b74308b744038ad072b12,
+        type: 3}
+      propertyPath: startText
+      value: Welcome to the Milky Way Galaxy! Try moving away from the Milky Way
+        disk.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064380107206226060, guid: 41261283bc4b74308b744038ad072b12,
+        type: 3}
+      propertyPath: scaleFactor
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064380107206226060, guid: 41261283bc4b74308b744038ad072b12,
+        type: 3}
+      propertyPath: referenceObject
+      value: 
+      objectReference: {fileID: 1855195987}
+    - target: {fileID: 4064380107206226060, guid: 41261283bc4b74308b744038ad072b12,
+        type: 3}
+      propertyPath: referenceObjectName
+      value: Milky Way center
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41261283bc4b74308b744038ad072b12, type: 3}
 --- !u!114 &791681723 stripped
@@ -202,6 +291,40 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9aaaa9ec7df44a54a0ab14e20f331ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &791681724 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4064380105933498660, guid: 41261283bc4b74308b744038ad072b12,
+    type: 3}
+  m_PrefabInstance: {fileID: 791681722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &791681725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791681724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbbd4cc532d78486c942b98f0e6cf2d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceThreshold: 3000
+  earthTransform: {fileID: 1855195987}
+  sceneName: LSSScene
+  fadeScreen: {fileID: 791681723}
+--- !u!114 &791681734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791681724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9acd405391cf5444a8dd2fb7c95feb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &907260109
@@ -437,42 +560,74 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!1 &1855195986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1855195987}
+  m_Layer: 0
+  m_Name: Galaxy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1855195987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855195986}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 57814976}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2100271219
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1855195987}
     m_Modifications:
     - target: {fileID: -364223573239433514, guid: 31420b90c28934387a4ef53b073fdba1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -364223573239433514, guid: 31420b90c28934387a4ef53b073fdba1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -115.172104
       objectReference: {fileID: 0}
     - target: {fileID: -364223573239433514, guid: 31420b90c28934387a4ef53b073fdba1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 7.8712463
       objectReference: {fileID: 0}
     - target: {fileID: -364223573239433514, guid: 31420b90c28934387a4ef53b073fdba1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -155.92833
       objectReference: {fileID: 0}
     - target: {fileID: -364223573239433514, guid: 31420b90c28934387a4ef53b073fdba1,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.90367067
+      value: 0.9036707
       objectReference: {fileID: 0}
     - target: {fileID: -364223573239433514, guid: 31420b90c28934387a4ef53b073fdba1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.4282281
+      value: 0.42822814
       objectReference: {fileID: 0}
     - target: {fileID: -364223573239433514, guid: 31420b90c28934387a4ef53b073fdba1,
         type: 3}
@@ -507,40 +662,3 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -4216948427090074523, guid: 31420b90c28934387a4ef53b073fdba1,
     type: 3}
---- !u!1 &2100271220 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8980549144392899874, guid: 31420b90c28934387a4ef53b073fdba1,
-    type: 3}
-  m_PrefabInstance: {fileID: 2100271219}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2100271221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100271220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea3faf2cf77fb408db780f30f36e673a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  joystickAction: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f,
-    type: 3}
-  joystickThreshold: 0.5
-  scaleSpeed: 0.01
---- !u!114 &2100271222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100271220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbbd4cc532d78486c942b98f0e6cf2d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scaleThreshold: 0.0001
-  sceneIndex: 2
-  fadeScreen: {fileID: 791681723}

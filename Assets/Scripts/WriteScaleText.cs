@@ -5,23 +5,30 @@ using TMPro;
 
 public class WriteScaleText : MonoBehaviour
 {
-    public Transform referenceObject; // solar system, earth, MW etc.
-    public float startScale = 1; // scale of the ruler at the start of the scene, set by user
-    private float objectStartScale; // stores the scale of the scene at the start of the scene
+    public Transform referenceObject; // Sun, earth, center of MW etc.
+    public string referenceObjectName; // Sun, earth, center of MW etc.
+    public string unit; // AU, light year, etc.
+    public float scaleFactor; // convert the distances of gameobjects to physical distances
+    public string startText; // text to display at the start of the scene
 
-    // Start is called before the first frame update
+    private float tStart;
+
     void Start()
     {
-        objectStartScale = referenceObject.localScale.x;
+        tStart = Time.time;
+        this.gameObject.GetComponent<TextMeshProUGUI>().text = startText;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float currentScale = 1.0f / (referenceObject.localScale.x / objectStartScale * startScale);
+        if (Time.time - tStart < 5) // show the text for 5s
+            return;
+
+        float distance = scaleFactor * (this.gameObject.transform.position - referenceObject.position).magnitude;
         this.gameObject.GetComponent<TextMeshProUGUI>().text =
-            currentScale.ToString("G2") + "meters" +
-            "\n_______";
+            "Distance to " + referenceObjectName + " (" + unit + "): " +
+            distance.ToString("f2");
         ;
     }
 }
