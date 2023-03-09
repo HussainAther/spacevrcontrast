@@ -11,7 +11,8 @@ public class FadeScreen : MonoBehaviour
     void Start()
     {
         rend = GetComponent<Renderer>();
-        FadeOut();
+        //FadeOut();
+        rend.material.color = Color.clear;
     }
 
     public void FadeIn()
