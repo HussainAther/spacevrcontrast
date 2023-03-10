@@ -6,10 +6,10 @@ Make a VR app that we can use to visualize the differences in scale and size bet
 
 Using the 2021.3.20f1 version of Unity.
 
-##Team Name
+## Team Name
 Space Labs Inc
 
-##Project Video
+## Project Video
 https://youtu.be/52rRVhZzbME
 
 Team Emails
