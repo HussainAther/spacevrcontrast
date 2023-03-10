@@ -9,7 +9,7 @@ For the Metaverse Creators Hackathon, this app was created to study and portray 
 
 Make a VR app that we can use to visualize the differences in scale and size between different parts of the universe. We want to show the contrast between our daily lives, the Earth, the Solar System, the Milky Way Galaxy, and the Large-Scale Structure of the universe. 
 
-
+As found on Itch: https://lightspeedturtle.itch.io/thescalableuniverse
 
 ## Team Name
 Space Labs Inc
