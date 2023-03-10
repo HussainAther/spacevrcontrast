@@ -26,6 +26,21 @@ public class SceneTransitionManager : MonoBehaviour
         yield return new WaitForSeconds(fadeScreen.fadeDuration);
 
         SceneManager.LoadScene(sceneName);
+        
+        if(sceneName == "GalaxyScene")
+        {
+            FindObjectOfType<AudioManager>().Play("galaxyBgm");
+            yield return new WaitForSeconds(1f);
+            FindObjectOfType<AudioManager>().Play("galaxyNarration");
+        }
+        
+        if(sceneName == "LSSScene")
+        {
+            FindObjectOfType<AudioManager>().Play("lssBgm");
+            yield return new WaitForSeconds(1f);
+            FindObjectOfType<AudioManager>().Play("lssNarration");
+        }
+        
     }
 
     // Update is called once per frame

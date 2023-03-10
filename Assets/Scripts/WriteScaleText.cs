@@ -17,6 +17,9 @@ public class WriteScaleText : MonoBehaviour
     {
         tStart = Time.time;
         this.gameObject.GetComponent<TextMeshProUGUI>().text = startText;
+
+        FindObjectOfType<AudioManager>().Play("solarNarration");
+        FindObjectOfType<AudioManager>().Play("solarBgm");
     }
 
     // Update is called once per frame
