@@ -65,22 +65,22 @@ https://sketchfab.com/3d-models/need-some-space-d6521362b37b48e3a82bce4911409303
 	Milky Way
 	Welcome to the Milky Way, our home galaxy and a breathtaking spectacle of stars and cosmic wonders. This spiral galaxy is over 100,000 light-years wide, containing billions of stars, planets, and other celestial bodies.
 
-At the center of the Milky Way lies a supermassive black hole, surrounded by a cluster of stars that orbit around it. Moving out from the center, we find the galaxy's spiral arms, each filled with stars, gas, and dust.
+	At the center of the Milky Way lies a supermassive black hole, surrounded by a cluster of stars that orbit around it. Moving out from the center, we find the galaxy's spiral arms, each filled with stars, gas, and dust.
 
-As we journey along the spiral arms, we discover diverse worlds and strange phenomena, from massive stars that explode in brilliant supernovas, to vast clouds of gas that give birth to new stars and planets.
+	As we journey along the spiral arms, we discover diverse worlds and strange phenomena, from massive stars that explode in brilliant supernovas, to vast clouds of gas that give birth to new stars and planets.
 
-The Milky Way is also home to numerous globular clusters, groups of stars tightly bound together by gravity. These clusters are some of the oldest objects in the galaxy, dating back billions of years.
+	The Milky Way is also home to numerous globular clusters, groups of stars tightly bound together by gravity. These clusters are some of the oldest objects in the galaxy, dating back billions of years.
 
-As we marvel at the beauty and complexity of the Milky Way, we are reminded of the vastness of the universe and the many mysteries that still await discovery. Who knows what secrets lie hidden among the stars and planets of this magnificent galaxy?
+	As we marvel at the beauty and complexity of the Milky Way, we are reminded of the vastness of the universe and the many mysteries that still await discovery. Who knows what secrets lie hidden among the stars and planets of this magnificent galaxy?
 
 	Large Scale Structure
 	Welcome to the vast and mysterious expanse of the universe, a place of awe-inspiring wonder and unimaginable scale. The universe is composed of billions of galaxies, each containing billions of stars, planets, and other celestial objects.
 
-As we move further out, we see clusters of galaxies and superclusters, immense structures that stretch across billions of light-years. These structures are connected by vast filaments of gas and dark matter, weaving a complex cosmic web that binds the universe together.
+	As we move further out, we see clusters of galaxies and superclusters, immense structures that stretch across billions of light-years. These structures are connected by vast filaments of gas and dark matter, weaving a complex cosmic web that binds the universe together.
 
-Beyond the structures and filaments of the universe, we find the cosmic microwave background radiation, the faint afterglow of the Big Bang that still pervades the universe. This radiation gives us a glimpse into the earliest moments of the universe, revealing the seeds of the galaxies and clusters that would eventually form.
+	Beyond the structures and filaments of the universe, we find the cosmic microwave background radiation, the faint afterglow of the Big Bang that still pervades the universe. This radiation gives us a glimpse into the earliest moments of the universe, revealing the seeds of the galaxies and clusters that would eventually form.
 
-As we contemplate the enormity and complexity of the universe, we are reminded of our small place in the grand scheme of things. Yet, we also marvel at the incredible beauty and diversity of the cosmos, and the endless possibilities that it holds.
+	As we contemplate the enormity and complexity of the universe, we are reminded of our small place in the grand scheme of things. Yet, we also marvel at the incredible beauty and diversity of the cosmos, and the endless possibilities that it holds.
 
 
 ## Resources & Acknowledgements:
