@@ -96,6 +96,19 @@ https://github.com/keijiro/Pcx
 Public data used to create the large-scale structure scene
 https://www.illustris-project.org/ 
 
+
+City sounds
+https://www.youtube.com/watch?v=jX-0Wb_wQsY
+
+Solar system bgm
+https://www.youtube.com/watch?v=g7h5eT3X_XU
+
+Galaxy bgm
+https://www.youtube.com/watch?v=xkJ3NXcO-PY&list=PL7-_Ltr8Xtuy90yqoxcvm_D_rZGHYQJ-3&index=5
+
+Large-Scale Universe bgm
+https://www.youtube.com/watch?v=HKinw3NqWFQ
+
 Inspiration
 https://devpost.com/software/cosmovr#updates
 
