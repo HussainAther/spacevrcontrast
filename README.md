@@ -15,7 +15,7 @@ Make a VR app that we can use to visualize the differences in scale and size bet
 Space Labs Inc
 
 ## Project Video
-https://youtu.be/52rRVhZzbME
+[https://youtu.be/52rRVhZzbME](https://youtu.be/kQOX01YNNro)
 
 ## Team Emails
 Xiaohan Wu - wuxiaohan.a@gmail.com
